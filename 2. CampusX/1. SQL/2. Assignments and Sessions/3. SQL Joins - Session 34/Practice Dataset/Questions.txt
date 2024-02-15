@@ -1,0 +1,40 @@
+-------------------
+
+Freedom Ranking for Different Countries
+
+
+Some feature details of the dataset:
+
+Feature	Description
+A	Electoral Process
+B	Political Pluralism and Participation
+C	Functioning of Government
+D	Freedom of Expression and Belief
+E	Associational and Organizational Rights
+F	Rule of Law
+G	Personal Autonomy and Individual Rights
+CL	Civil Liberties Scores
+Status	F=Free, PF=Partly Free, NF=Not Free
+
+
+Q-1 Find out top 10 countries' which have maximum A and D values.
+Q-2 Find out highest CL value for 2020 for every region. Also sort the result in descending order. Also display the CL values in descending order.
+
+--------------------------
+
+Dataset
+Data Link-> https://drive.google.com/drive/folders/1bGgNTDy5L_IodNcGHdB_SNCkUI5MUjmY?usp=share_link Four Tables:
+
+Customer
+Employee
+Sales
+Products
+
+
+Q-3 Find top-5 most sold products.
+Q-4: Find sales man who sold most no of products.
+Q-5: Sales man name who has most no of unique customer.
+Q-6: Sales man who has generated most revenue. Show top 5.
+Q-7: List all customers who have made more than 10 purchases.
+Q-8 : List all salespeople who have made sales to more than 5 customers.
+Q-9: List all pairs of customers who have made purchases with the same salesperson.

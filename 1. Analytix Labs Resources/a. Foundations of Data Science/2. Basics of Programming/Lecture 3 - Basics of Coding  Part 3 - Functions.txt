@@ -1,0 +1,32 @@
+Functions:
+
+10, 20
+10, 30, 40
+10, 20, 30, 40, ....
+
+10 + 20
+10 + 30 + 40
+....
+
+Function is a piece of a code that can be reused
+
+Input --> Processing --> Output
+
+1. Inbuilt Functions: 
+	number functions: round(), int(), ceiling(), abs()
+	text functions: substring(), charindex(), replace()
+	date and time functions: datediff(), year(), month(), hour(), now(), getdate()
+	aggregate functions: sum(), mean(), min(), max()
+
+2. UDFs - User Defined Functions
+
+	function defination
+	function call
+	
+
+
+
+
+
+
+

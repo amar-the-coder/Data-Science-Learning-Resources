@@ -1,0 +1,19 @@
+Control flow statements:
+
+1. Conditional statements: if else else, case when, switch ...
+
+2. Loops: while, until, for, for each...
+	Conditional loops: while, until
+	ranged loop: for, for each
+
+
+
+var = 10
+num1 = 20
+num2 = 30
+num3 = num1 + num2
+num4 = num1 - num2
+
+
+
+num2 = 30

@@ -1,0 +1,72 @@
+SQL SubQuery---(Just For Knowledge)
+How to load the dataset(s) to SQL?
+Using Python, you can load the large datasets to MySQL database very easily. For that follow the below steps.
+
+First create a database in your local machine server.
+CREATE DATABASE <database_name>
+Next, use Python to load the database
+import pandas as pd
+from sqlalchemy import create_engine
+
+df = pd.read_csv("file/path/to/the/database.csv")
+
+engine = create_engine("mysql+pymysql://<db_username>:<db_password>@<hostname>/<database_name>")
+df.to_sql("<table_name>", con=engine)
+
+
+
+------------------------------------------- Questions----------------------------------------------------------------
+
+Problems 1-6
+For problems 1 to 6, use the Olympic dataset. You can get that from here.
+
+Column description:
+
+1. ID -> ID of every records to our dataset. It has integer datatype.
+2. Name -> Name of the athletes.
+3. Sex -> Gender of the athletes.
+4. Height -> Height of the athletes
+5. Weight -> Weight of the athletes
+6. NOC -> In which country, the athletes belong to. This is actually the country code.
+7. Year -> In which year, the athlete has participated
+8. Sport -> What is the sport name in which the athlete participated.
+9. Event -> Event name of the sport
+10. Medal -> Which medal the athlege got. If the athlete did not get any medal then this cell is blank.
+11. country -> The name of the country.
+
+
+Problem 1
+Display the names of athletes who won a gold medal in the 2008 Olympics and whose height is greater than the average height of all athletes in the 2008 Olympics.
+
+Problem 2
+Display the names of athletes who won a medal in the sport of basketball in the 2016 Olympics and whose weight is less than the average weight of all athletes who won a medal in the 2016 Olympics.
+
+Problem 3
+Display the names of all athletes who have won a medal in the sport of swimming in both the 2008 and 2016 Olympics.
+
+Problem 4
+Display the names of all countries that have won more than 50 medals in a single year.
+
+Problem 5
+Display the names of all athletes who have won medals in more than one sport in the same year.
+
+Problem 6
+What is the average weight difference between male and female athletes in the Olympics who have won a medal in the same event?
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Problem 7 - 10
+Use the health insurance dataset. You can get the dataset as well as the description of the dataset here.
+
+Problem 7
+How many patients have claimed more than the average claim amount for patients who are smokers and have at least one child, and belong to the southeast region?
+
+Problem 8
+How many patients have claimed more than the average claim amount for patients who are not smokers and have a BMI greater than the average BMI for patients who have at least one child?
+
+Problem 9
+How many patients have claimed more than the average claim amount for patients who have a BMI greater than the average BMI for patients who are diabetic, have at least one child, and are from the southwest region?
+
+Problem 10:
+What is the difference in the average claim amount between patients who are smokers and patients who are non-smokers, and have the same BMI and number of children?

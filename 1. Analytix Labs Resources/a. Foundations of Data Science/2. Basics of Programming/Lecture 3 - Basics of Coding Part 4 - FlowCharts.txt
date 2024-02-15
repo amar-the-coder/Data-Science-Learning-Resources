@@ -1,0 +1,67 @@
+ Flow charts:
+To understand the flow of the program
+
+Pseudo Code:
+1. It is the set the instructions that we want to carry out to program something in a certain language. 
+2. Pseudo codes will not have any set syntax of any language
+3. It is available to make the humans understand the Business Logic that programmer is going to implement
+
+Pseudo Code Examples:
+********************************
+
+1. Create a program to add 2 numbers together and then display the result
+	Start Program
+	Enter the number 1, n1
+	Enter the second number, n2
+	Add the two numbers, n1, n2
+	Display the result	
+	End Program
+
+2. Compute the area of a rectangle
+	Start Program
+	Enter the length, l
+	Enter the width, w
+	Calculate the area = l * w
+	Display the area	
+	End Program
+
+3. Display if the candidate has passed or failed in the exam; given passing marks as 60
+	Start Program
+	Enter the marks, m1
+	Check for the condition, m1 >= 60
+	If condition output is True
+		print passed
+..mm	otherwise
+		print failed
+	End Program
+
+4. Write a table of a given number
+	Start Program
+	Enter the number, num
+	Set the counter to 1, Set end value to 10 
+	Start the loop
+		save the result = num * counter
+		display the result
+		increment the counter by 1
+	End the loop
+	End Program
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
